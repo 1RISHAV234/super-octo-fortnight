@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Farm to kitchen</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <body id="lol" style="background-color:#222;">
+            <nav style="margin-top:0;" class="navbar-inverse my_nav_bar">
+                <div style="top:0" class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a style="font-family: segoe ui;" class="navbar-brand" id="linkasd"  href="#">Farm to kitchen (beta)</a>
+                </div>
+                <div style="top:0" class="collapse-navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html" id="a_link">Home</a></li>
+                        <li><a href="products.html" id="a_link">Products</a></li>
+                        <li><a href="how_we_produce_our_items.html" id="a_link" onmouseover="hovered();">How we produce our items?</a></li>
+                        <li><a href="contact.html" id="a_link">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <center>
+                <br>
+                <br>
+                <br>
+                <div id="main" style="width: 100%;">
+                    <div class="container">
+                        <h1 id="heading">Farm to kitchen</h1>
+                        <br>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000" >
+                            <div class="carousel-inner">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                </ol>
+                                <div class="item active">
+                                    <center>
+                                        <img id="imggg1" src="https://media.istockphoto.com/photos/broad-billed-hummingbird-picture-id637958080?s=170667a" height="300px" width="65%">
+                                        <div class="carousel-content">
+                                            <br>
+                                            <p class="label123" id="label_12344">Humming bird?</p>
+                                        </div>
+                                    </center>
+                                </div>
+                                <div class="item">
+                                    <center style="width: 500px;">
+                                        <img id="imggg" src="Screenshot 2022-05-24 232133.png" height="296.4px" width="65%" >
+                                        <div class="carousel-content">
+                                            <br>
+                                            <p class="label123" id="labelll">Cows?</p>
+                                        </div>
+                                    </center>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" style="width: 10%;" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" style="width: 10%;" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                        </div>
+                        <br>
+                        <br>
+                        <p id="changeme" style="color: white;font-size:18px;">Welcome to our website, Farm to kitchen. We sell lots of stuff naturally. All of these stuffs are done by our farm. We don’t add chemicals to produce a large variety of stuff. We have started this in a small business. If you do consider asking or some changes regarding our website or products, feel free to contact us! Thank you.<br><i style="color: gray;">~The farm to kitchen team</i> </p>
+                        <!---->
+                    </div>   
+                </div>
+            </center>
+            <div>
+                <img src="light.png" id="light" class="img-responsive" onclick="lightmode()" style="border-radius: 50px;width: 30px;cursor: pointer;bottom: 0;position: fixed;right: 0;">
+                <img src="dark.png" id="dark" class="img-responsive" onclick="darkmode()" style="border-radius: 50px;width: 30px;cursor: pointer;bottom: 0;position: fixed;right: 0;visibility:hidden;">
+            </div>
+    </body>
+    <script src="main.js"></script>
+    <script async src="https://drv.tw/inc/wd.js"></script>
+</html>
